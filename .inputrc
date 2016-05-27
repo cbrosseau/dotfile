@@ -1,0 +1,15 @@
+# Bind page up/down wih history search
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+ 
+# Do not show hidden files in the list
+set match-hidden-files off
+ 
+# Removes the annoying "-- more --" prompt for long lists
+set page-completions off
+ 
+# Prompt to "display all possibilities" only for really long lists
+set completion-query-items 350
+ 
+# Show list at first TAB, instead of beeping and waiting for a second TAB
+set show-all-if-ambiguous on
