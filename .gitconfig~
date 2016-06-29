@@ -1,6 +1,6 @@
 [user]
-    name = Charles Brosseau
-    email = charlesbrosseau00@gmail.com
+    name = Your Name
+    email = your.name@schneider-electric.com
 [log]
     decorate = short
 [color]
@@ -21,7 +21,7 @@
     amend = commit --amend
     abbrev = rev-parse --short
 [merge]
-    tool = kdiff3
+    tool = meld
 [format]
     numbered = auto
 [core]
@@ -43,7 +43,7 @@
     keepBackup = false
     keepTemporaries = false
 [diff]
-    tool = kdiff3
+    tool = meld
     renamelimit = 0
 [pack]
     threads = 0
